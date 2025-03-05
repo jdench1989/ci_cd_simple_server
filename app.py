@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def get_home():
-    return "Sausage"
+    return "Hello, world!"
   
 @app.route('/greet/<string:name>', methods=['GET'])
 def greet(name):
